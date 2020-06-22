@@ -1,14 +1,15 @@
 {
   "display_name": "Java, Mockito",
-  "image_name": "cyberdojofoundation/java_mockito",
-  "visible_filenames":
-  [
+  "image_name": "cyberdojofoundation/java_mockito:4170a59",
+  "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
     "HikerHelper.java",
     "cyber-dojo.sh"
   ],
-  "filename_extension": [ ".java" ],
+  "filename_extension": [
+    ".java"
+  ],
   "max_seconds": 10,
   "tab_size": 4
 }
