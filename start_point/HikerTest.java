@@ -6,9 +6,10 @@ class HikerTest {
 
     @Test
     void life_the_universe_and_everything() {
-        HikerHelper helper = mock(HikerHelper.class);
-        Hiker douglas = new Hiker(helper);
-        when(helper.multiplier()).thenReturn(9);
-        assertEquals(42, douglas.answer());
+        Hiker.Listener listener = mock(Hiker.Listener.class);
+        Hiker douglas = new Hiker(listener);
+        douglas.answer();
+        verify(listener).onAnswer(42);
+        verifyNoMoreInteractions(listener);
     }
 }

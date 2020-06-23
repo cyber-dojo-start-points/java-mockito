@@ -1,13 +1,16 @@
-
 public class Hiker {
 
-    public Hiker(HikerHelper helper) {
-        this.helper = helper;
+    public interface Listener {
+        void onAnswer(int answer);
     }
 
-    public int answer() {
-        return 6 * helper.multiplier();
+    public Hiker(Listener listener) {
+        this.listener = listener;
     }
 
-    private HikerHelper helper;
+    public void answer() {
+        listener.onAnswer(6 * 9);
+    }
+
+    private Listener listener;
 }
