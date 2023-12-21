@@ -1,6 +1,6 @@
 {
   "display_name": "Java 21, Mockito 5.8",
-  "image_name": "cyberdojofoundation/java_mockito:6f26d37",
+  "image_name": "cyberdojofoundation/java_mockito:a6a82c7",
   "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
