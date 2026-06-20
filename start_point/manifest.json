@@ -1,5 +1,13 @@
 {
   "display_name": "Java 21, Mockito 5.14",
+  "language": [
+    "Java",
+    "21"
+  ],
+  "test_framework": [
+    "Mockito",
+    "5.14"
+  ],
   "image_name": "ghcr.io/cyber-dojo-languages/java_mockito:d24bed9",
   "visible_filenames": [
     "HikerTest.java",

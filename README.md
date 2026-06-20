@@ -1,4 +1,4 @@
-[![Github Action (main)](https://github.com/cyber-dojo-start-points/java-mockito/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-start-points/java-mockito/actions)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
 ### display_name="Java 21, Mockito 5.14"
 ### image_name="[ghcr.io/cyber-dojo-languages/java_mockito](https://hub.docker.com/repository/docker/cyberdojofoundation/java_mockito)"
