@@ -1,0 +1,21 @@
+public class Hiker {
+
+    public interface Listener {
+        void onAnswer(int answer);
+        void onName(String name);
+    }
+
+    public Hiker(Listener listener) {
+        this.listener = listener;
+    }
+
+    public void answer() {
+        listener.onAnswer(6 * 9);
+    }
+
+    public void introduce() {
+        listener.onName("Zaphod Beeblebrox");
+    }
+
+    private Listener listener;
+}

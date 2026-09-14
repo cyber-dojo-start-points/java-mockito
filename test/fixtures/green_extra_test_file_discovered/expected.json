@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 30,
+  "match_counts": {
+    "AnswerSizeTest \\[OK\\]$": 1,
+    "the_answer_is_two_digits_long\\(\\) \\[OK\\]$": 1,
+    "life_the_universe_and_everything\\(\\) \\[OK\\]$": 1,
+    "^\\[ +2 tests found +\\]$": 1,
+    "^\\[ +2 tests successful +\\]$": 1,
+    "^\\[ +0 tests failed +\\]$": 1
+  }
+}

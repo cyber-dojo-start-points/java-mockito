@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^ +=> Argument\\(s\\) are different! Wanted:$": 1,
+    "^listener\\.onAnswer\\(42\\);$": 1,
+    "^listener\\.onAnswer\\(54\\);$": 1,
+    "^Failures \\(1\\):$": 1,
+    "^\\[ +1 tests found +\\]$": 1,
+    "^\\[ +0 tests successful +\\]$": 1,
+    "^\\[ +1 tests failed +\\]$": 1,
+    "^\\[ +0 containers failed +\\]$": 1
+  }
+}

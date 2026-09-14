@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^ +=> Wanted but not invoked:$": 1,
+    "^Actually, there were zero interactions with this mock\\.$": 1,
+    "^Failures \\(1\\):$": 1,
+    "^\\[ +1 tests found +\\]$": 1,
+    "^\\[ +0 tests successful +\\]$": 1,
+    "^\\[ +1 tests failed +\\]$": 1,
+    "^\\[ +0 containers failed +\\]$": 1
+  }
+}
