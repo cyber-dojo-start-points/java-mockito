@@ -1,14 +1,14 @@
 {
-  "display_name": "Java 27.0.1.0.3, Mockito 5.24.0",
+  "display_name": "Java 27.0.1.1, Mockito 5.24.0",
   "language": [
     "Java",
-    "27.0.1.0.3"
+    "27.0.1.1"
   ],
   "test_framework": [
     "Mockito",
     "5.24.0"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/java_mockito:dba03ba@sha256:b11a09af5009835d365131bb46c89c1a87f49e584f8f6c0e5e33a1c50f1207b1",
+  "image_name": "ghcr.io/cyber-dojo-languages/java_mockito:e1910fc@sha256:7cca1698a842c151adf1ac3641485777c5ea476da0d74d6f08f30aff372d6cd4",
   "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
